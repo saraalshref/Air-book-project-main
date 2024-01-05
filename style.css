@@ -1,0 +1,125 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+nav{
+    background-color: black;
+   padding: 10px;
+}
+p, h1, h2, h3, h4, h5, h6, input{
+    font-family: 'Noto Sans', sans-serif;
+}
+a{
+    text-decoration-line: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+    margin-left: 20px;
+    
+}
+a:hover{
+    color:  #ffc107 !important;
+}
+header{
+    background-color: rgba(71, 151, 255, 0.3);
+    display: flex;
+    height: 80vh;
+    position: relative;
+    background-image: url("flight_woman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.content{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.btn-gold{
+    background-color: #ffc107;
+}
+
+.text-black{
+    color: black;
+}
+
+.text-white{
+    color: white;
+}
+.bac-img{
+    background-image: url(images/dream.jpg);
+    background-size: cover;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+#specialSection{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#suggest{
+    max-width: 520px;
+}
+.rounded-bottomm{
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.rounded-topp{
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 221, 221);
+}
+
+
+.clickable:hover{
+    cursor: pointer;
+}
+.rounded-top-left-1 {
+    border-top-left-radius: 1rem;
+}
+.rounded-top-right-1 {
+    border-top-right-radius: 1rem;
+}
+.rounded-1{
+    border-radius: 1rem;
+}
+.m-0{
+    margin: 0;
+}
+
+.bg-c-white-black{
+    background-color: white;
+    color: black;
+}
+
+.bg-c-red-white{
+    background-color: rgb(221, 45, 45);
+    color: white;
+}
+
+.booking:hover{
+    background-color: rgb(209, 44, 44);
+    color: white;
+    cursor: pointer;
+}
+
+.no-focus-outline:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.col-5-5{
+    width: 50%;
+}
+
+.m-1-1{
+    margin: 1px;
+}
